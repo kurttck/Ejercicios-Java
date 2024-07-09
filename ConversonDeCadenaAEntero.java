@@ -10,8 +10,6 @@ public class ConversonDeCadenaAEntero {
         try{
             int numberconver=Integer.parseInt(number);
             System.out.println("El número convertido: "+numberconver);
-
-
         }catch(NumberFormatException e){
             System.out.println("No funciona!"+e.getMessage());
         }
