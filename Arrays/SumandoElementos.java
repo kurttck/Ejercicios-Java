@@ -1,6 +1,3 @@
-package Arrays;
-
-
 
 public class SumandoElementos {
     public static void main(String[] args){

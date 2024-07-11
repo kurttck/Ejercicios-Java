@@ -1,3 +1,4 @@
+package Switch;
 import java.util.Scanner;
 
 public class ConversionDeCalificaciones {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class asdasd{
+public class App {
     public static void main(String[] args) {
         // Crear un scanner para leer la entrada del usuario
         Scanner scanner = new Scanner(System.in);
