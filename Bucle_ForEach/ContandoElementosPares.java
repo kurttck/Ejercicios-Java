@@ -6,6 +6,7 @@ public class ContandoElementosPares {
         int[] numbers= new int[10];
         int contador=0;
         int contadorpares=0;
+        
         for(int number : numbers){
             number=(int)(Math.random()*100); 
             numbers[contador]=number;
