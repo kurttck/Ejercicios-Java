@@ -6,7 +6,6 @@ public class RegistroAlumnos {
         Scanner scan =  new Scanner(System.in);
         ArrayList<String> alumns = new ArrayList<>();
         ArrayList<Double> notes = new ArrayList<>();
-        int positionalum = 0;
         int option=0;
         
 
@@ -30,7 +29,6 @@ public class RegistroAlumnos {
                 System.out.println("Ingrese la nota.");
                 double nota =scan.nextDouble();
                 notes.add(nota);
-                positionalum++;
                 break;
             }
             case 2:{
