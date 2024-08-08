@@ -5,21 +5,21 @@ public class TablaDeMultiplicar2 {
     public static Scanner scan = new Scanner(System.in);
     
     public static void main(String[] args){
-        int[] numbers= new int[3];
-
-        int number1 = getNumber();
-        numbers[0]=number1;
-        int number2 = getNumber();
-        numbers[1]=number2;
-        int number3 = getNumber();
-        numbers[2]=number3;
-
-        imprimirTablaMultiplicar(numbers);
+        int[] numeros = getNumbers();
+        imprimirTablaMultiplicar(numeros);
     }
 
     private static int getNumber(){
         System.out.println("Ingrese un número");
         return scan.nextInt();
+    }
+
+    private static int[] getNumbers(){
+        int[] numbers= new int[3];
+        for(int i=0; i<=2;i++){
+            numbers[i]=getNumber();
+        }
+        return numbers;
     }
 
     private static void imprimirTablaMultiplicar(int[] numbers){
