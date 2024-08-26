@@ -10,9 +10,6 @@ public class PracticaInicial {
         imprimeNombreYEdad(name, age);
         scan.close();
     }
-
-    
-
   /*   private static void imprimeNombre(String nombre){
         System.out.println("Mi nombre es "+nombre);
     } */
