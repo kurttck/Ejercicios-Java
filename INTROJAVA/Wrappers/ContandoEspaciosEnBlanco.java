@@ -1,4 +1,4 @@
-package INTROJAVA.Wrappers;
+package Wrappers;
 
 import java.util.Scanner;
 

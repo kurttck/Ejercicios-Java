@@ -1,4 +1,4 @@
-package INTROJAVA.Metodos_I;
+package Metodos_I;
 
 import java.util.Scanner;
 
